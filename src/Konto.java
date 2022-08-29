@@ -23,4 +23,11 @@ public class Konto {
         return navn;
     }
 
+    public int deposit(int i) {
+        if(i > 0) {
+            saldo = saldo + i;
+        }
+        return saldo;
+    }
+
 }
