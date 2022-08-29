@@ -30,4 +30,10 @@ public class Konto {
         return saldo;
     }
 
+    public int withdraw(int i) {
+        if(i > 0 && i <= saldo){
+            saldo = saldo - i;
+        }
+        return saldo;
+    }
 }
