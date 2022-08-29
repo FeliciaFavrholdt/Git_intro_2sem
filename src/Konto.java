@@ -19,7 +19,7 @@ public class Konto {
         return saldo;
     }
 
-    public String getNavn() {
+    public String getName() {
         return navn;
     }
 
